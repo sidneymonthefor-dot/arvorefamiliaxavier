@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Árvore Genealógica de Thaís</title>
+<style>
+  :root{
+    --ink:#12151c;
+    --azulejo:#3b6e91;
+    --terracota:#a8506a;
+    --ouro:#dcb46a;
+    --texto:#d8dde6;
+    --texto-fraco:#8f96a5;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;}
+  body{
+    background:var(--ink);
+    color:var(--texto);
+    font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+  }
+  header{
+    padding:18px 26px 14px;
+    border-bottom:1px solid #2c3444;
+    text-align:center;
+  }
+  header h1{
+    margin:0 0 4px;
+    font-size:1.3rem;
+    color:#f4f1ea;
+    font-weight:600;
+  }
+  header p{
+    margin:0;
+    font-size:.8rem;
+    color:var(--texto-fraco);
+  }
+  .legenda{
+    display:flex; justify-content:center; gap:22px; margin-top:10px;
+    font-size:.72rem; color:var(--texto-fraco); flex-wrap:wrap;
+  }
+  .legenda span{display:inline-flex; align-items:center; gap:6px;}
+  .swatch{width:10px;height:10px;border-radius:50%;display:inline-block;}
+  .markmap{
+    flex:1;
+    position:relative;
+  }
+  .markmap > svg{
+    width:100%;
+    height:100%;
+    min-height:640px;
+  }
+  footer{
+    text-align:center;
+    padding:10px;
+    font-size:.68rem;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--texto-fraco);
+    border-top:1px solid #2c3444;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mapa Mental — Árvore Genealógica de Thaís</h1>
+  <p>Clique nos círculos para expandir ou recolher os ramos. Arraste para mover, role para dar zoom.</p>
+  <div class="legenda">
+    <span><i class="swatch" style="background:var(--azulejo)"></i> Linha Paterna (Basílio)</span>
+    <span><i class="swatch" style="background:var(--terracota)"></i> Linha Materna (Maria do Socorro)</span>
+    <span><i class="swatch" style="background:var(--ouro)"></i> Elo de Aliança / Thaís</span>
+  </div>
+</header>
+
+<div class="markmap">
+<script type="text/template">
+# Thaís
+## Linha Paterna — lado de Basílio
+### Bisavós de Thaís
+- Bisavô paterno: não informado
+- Bisavó paterna: não informado
+- Bisavô materno (de Francisco): não informado
+- Bisavó materna (de Francisco): não informado
+### Avós de Francisco
+- Florindo (avô paterno)
+- Maria Luiza (avó paterna)
+- Basílio (avô materno)
+- Avó materna: não informada
+### Pais: Francisco Ribeiro Xavier & Ana Alves Ferreira
+### Filhos de Francisco & Ana (irmãos entre si)
+- Antônio Ribeiro Xavier
+- Joana Ribeiro Xavier — esposo: Raimundo Mesquita
+- Maria do Carmo — esposo: Pedro Sampaio
+  - Agemiro
+  - Pedro
+  - Antônio Francisco
+  - Adão
+  - Eva
+  - outros não informados
+- Dalvina Ribeiro Xavier — esposo: Raimundo Nonato (elo entre as duas linhas)
+  - irmã de Basílio
+- José Ribeiro Xavier
+  - Raimundo Nonato
+  - José Filho
+  - Sílvio
+  - Luzenira
+- Pedro Ribeiro Xavier
+  - Leuda
+  - Solange
+  - Francisca
+  - Tatiane
+  - Joana
+  - Pedro
+  - Joaquim
+  - César
+- Basílio Ribeiro Xavier — pai de Thaís
+  - Jones
+  - Diego
+  - Thaís
+
+## Linha Materna — lado de Maria do Socorro
+### Bisavós de Thaís
+- Dionísio — pai de Raimundo Nonato de Pinho
+- Maria Verônica — mãe de Raimundo Nonato de Pinho
+- Florindo — pai de Mariana Gomes da Penha
+- Maria Luiza — mãe de Mariana Gomes da Penha
+### Avós de Maria do Socorro
+- Raimundo Nonato de Pinho (avô paterno)
+- Joana Alencar (avó paterna)
+- João Nepomuceno (avô materno)
+- Mariana Gomes da Penha (avó materna)
+  - Filhos de João e Mariana
+    - Antônia
+    - João de Deus
+    - Antônio
+    - Joaquim
+    - Galdêncio
+    - Raimunda
+    - Maria de Nazaré
+    - Maria das Mercês
+    - Francisco
+    - Saturnino
+    - José Pedro
+    - Antônio Lisboa
+    - Manuel
+    - Daniel
+    - Maria das Graças
+    - Florindo (segue abaixo)
+### Pais: Agostinho Nonato de Pinho & Márcia das Mercês Gomes de Pinho
+- Raimundo Nonato — irmão de Agostinho (elo entre as duas linhas)
+  - casado com Dalvina Ribeiro Xavier
+### Filhos de Agostinho & Márcia (irmãos entre si)
+- Francisco das Chagas Gomes Marques
+  - Rafaela
+  - Raiana
+  - Rebeca
+  - Raisa
+  - Enzo
+- Desdete Gomes de Pinho
+  - Agostinho
+- Maria de Lourdes Gomes de Abreu
+  - Francisca
+  - Japoã (filho: Yuri)
+  - Josiel
+  - Leda
+  - Jonatas
+  - Laura
+  - José Luiz
+- Maria do Socorro Marques Xavier — mãe de Thaís
+  - Jones
+  - Diego
+  - Thaís
+- Maria da Cruz Gomes Marques de Abreu
+  - Kelly
+  - Arimatéia
+  - Célia
+  - José Gilberto
+- Antônio Gomes Marques
+  - Antoniel
+  - Anfrízio
+- José de Arimatéia Gomes Marques
+- Paulo Henrique Gomes Marques
+  - Wilkson
+  - Marcos Paulo
+- Maria Deusalina Marques Barcelar
+  - Maiara
+- Francisca das Chagas Gomes de Abreu
+  - Clara
+
+## O Elo de Aliança
+- Antes de Basílio e Maria do Socorro nascerem, as famílias já estavam ligadas
+- Dalvina (irmã de Basílio) casou com Raimundo Nonato (irmão de Agostinho)
+- Vínculo por afinidade, não por sangue — sem ancestrais comuns conhecidos
+- Basílio e Maria do Socorro se casam e formam o elo direto, do qual nasce Thaís
+</script>
+</div>
+
+<footer>Árvore Genealógica de Thaís — mapa mental gerado a partir do documento original</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16"></script>
+
+</body>
+</html>
